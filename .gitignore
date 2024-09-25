@@ -1,0 +1,85 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.out
+
+# Ignore node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Ignore Python specific files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+.env/
+.venv/
+Pipfile.lock
+.pytest_cache/
+*.pytest_cache
+.tox/
+coverage/
+htmlcov/
+*.cover
+*.coverage
+.mypy_cache/
+*.db
+
+# Ignore Rust specific files
+/target/
+Cargo.lock
+*.rs.bk
+*.d
+
+# Ignore compiled binaries
+*.o
+*.so
+*.a
+*.dylib
+*.exe
+
+# Ignore virtual environment for Python
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Ignore macOS specific files
+.AppleDouble
+.LSOverride
+
+# Ignore backup files from editors
+*~
+*.swp
+*.swo
+
+# Ignore Rust's Cargo.lock if not committed
+Cargo.lock
+
+# Ignore Rust output
+/target/
+
+# Ignore pyright/tsconfig JSON from TypeScript or Pyright setups
+pyrightconfig.json
+tsconfig.json
+``
