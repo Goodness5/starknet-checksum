@@ -1,3 +1,4 @@
+
 const { keccak_256 } = require('js-sha3');
 
 const isValidStarknetAddress = (address: string): boolean => {
