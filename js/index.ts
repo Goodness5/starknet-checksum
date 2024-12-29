@@ -34,9 +34,3 @@ const toChecksumAddress = (address: string): string => {
 const verifyChecksumAddress = (address: string): boolean => {
     return address === toChecksumAddress(address);
 };
-
-// Example usage
-const address = '0x0398E02FF59830718827f24e9DD1457c30C9e3F15dC6963A1D50CE1fde7fE802';
-const checksummed = toChecksumAddress(address);
-console.log('Checksummed address:', checksummed);
-console.log('Is valid checksum:', verifyChecksumAddress(address));
